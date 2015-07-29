@@ -1,0 +1,22 @@
+[
+    {
+        "name": "empId",
+        "label": "Employee Id",
+        "imageSrc": "images/arrow.png"
+    },
+    {
+        "name": "name",
+        "label": "Name",
+        "imageSrc": "images/arrow.png"
+    },
+    {
+        "name": "designation",
+        "label": "Designation",
+        "imageSrc": "images/arrow.png"
+    },
+    {
+        "name": "location",
+        "label": "Location",
+        "imageSrc": "images/arrow.png"
+    }
+]

@@ -1,0 +1,33 @@
+<div id="table-wrapper" ng-controller="StaffController">
+	<h2>Our Staff</h2>
+	<div id="table-search">
+		<span>Search: </span>
+		<input ng-model="searchText"/>
+	</div>
+	<div id="table-sort">
+		<span>Sort By: </span>
+		<select ng-model="sortProperty">
+			<option value="empId">Employee Id</option>
+			<option value="name">Name</option>
+			<option value="designation">Designation</option>
+			<option value="location">Location</option>
+		</select>
+	</div>
+	<table cellspacing="0">
+  		<thead>
+  			<tr>
+  				<th ng-repeat="empDetail in employeeDetailLabels">
+  					<span>{{ empDetail.label }}</span>
+  				</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr ng-repeat="emp in employees | filter:searchText | orderBy: sortProperty" ng-click="inidividualEmpData(emp)">
+  				<td>{{ emp.empId }}</td>
+  				<td>{{ emp.name }}</td>
+  				<td>{{ emp.designation }}</td>
+  				<td>{{ emp.location }}</td>
+  			</tr>
+  		</tbody>
+  	</table>
+</div>

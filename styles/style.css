@@ -1,0 +1,90 @@
+body {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+#page-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#header {
+	float: left;
+	width: 100%;
+	background-color: #d3e4fd;
+	text-align: center;
+}
+#content-wrapper {
+	display: table;
+	width: 100%;
+}
+#navbar {
+	display: table-cell;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	width: 15%;
+}
+#content-section {
+	padding-left: 10%;
+	display: table-cell;
+}
+#navbar ul {
+	padding: 0;
+}
+.menu_item {
+	list-style-type: none;
+	padding: 10px;
+	text-align: center;
+}
+.menu_item a {
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+}
+.menu_item a:hover {
+	font-size: 15px;
+	color: #535353;
+}
+.menu_item a.active {
+	color: blueviolet;
+}
+#back-button {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+/*table styling*/
+#table-wrapper {
+	float: left;
+}
+#table-search,
+#table-sort,
+#table-row-count {
+	margin-bottom: 15px;
+}
+table {
+	border: 1px solid #ccc;
+	border-right: 0;
+}
+table thead tr {
+	background-color: #D5D5D5;
+}
+table thead tr th,
+table tbody tr td {
+	padding: 10px 25px;
+	text-align: left;
+	border-right: 1px solid #d5d5d5;
+}
+table thead span {
+	cursor: pointer;
+	float: left;
+}
+table thead img {
+	cursor: pointer;
+	float: left;
+	margin-left: 13px;
+	margin-top: 3px;
+}
+table tbody tr:hover {
+	color: #999;
+	cursor: pointer;
+}

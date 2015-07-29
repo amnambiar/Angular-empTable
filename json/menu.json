@@ -1,0 +1,17 @@
+[
+  	{
+	  	"name": "about",
+	  	"label": "About Us",
+	  	"serviceUrl": "about"
+  	},
+  	{
+	  	"name": "staff",
+	  	"label": "Our Staff",
+	  	"serviceUrl": "staff"
+  	},
+  	{
+	  	"name": "contact",
+	  	"label": "Contat Us",
+	  	"serviceUrl": "contact"
+	}
+]

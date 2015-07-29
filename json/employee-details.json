@@ -1,0 +1,32 @@
+[
+  	{
+    		"empId": 2014,
+    		"name": "Sam",
+    		"designation": "FE Developer",
+    		"location": "Leela, Tvm"
+  	},
+  	{
+    		"empId": 2015,
+    		"name": "Roy",
+    		"designation": "FE Developer",
+    		"location": "Vazhuthacaud, Tvm"
+  	},
+  	{
+    		"empId": 2016,
+    		"name": "Tom",
+    		"designation": "Testing lead",
+    		"location": "Thejaswini, Tvm"
+  	},
+  	{
+    		"empId": 2017,
+    		"name": "Jerry",
+    		"designation": "Team Lead",
+    		"location": "Leela, Tvm"
+  	},
+  	{
+    		"empId": 2018,
+    		"name": "Alex",
+    		"designation": "Team Lead",
+    		"location": "Infopark, Koratty"
+  	}
+]
